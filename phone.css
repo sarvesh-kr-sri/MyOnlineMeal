@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Navigation */
+
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: .9rem;
+    padding: 3px 7px;
+    margin-bottom: 8px;
+}
+
+#logo{
+    margin: 2px 40px;
+}
+#logo img{
+    height: 40px;
+    width: 100px;
+    
+}
+/* Home section */
+#home{
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    height: 400px; 
+}
+#home p{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 50px;
+    font-size: 13px;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 10px;
+}
+
+/* Clients section */
+
+#clients{
+    flex-wrap: wrap;
+}
+.client-item{
+    padding: 30px 40px;
+}
+#clients img{
+    width: 45px;
+    padding: 0px;
+    margin: 0;
+    height: 40px;
+}
+#client-section{
+    height: 280px;
+}
+#client-section::before{
+    height: 280px;
+}
+
+/* Contact us section */
+
+#contact-box form{
+    width:80%;
+}
+#contact{
+    height: 600px;
+}
+#contact::before{
+    height: 640px;
+}
+#contact button{
+    height: 30px;
+}
+
+/* Footer */
+
+/* Utility classes */
+
+.h-primary{
+    margin-bottom: -30px;
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 6px 20px;
+}
