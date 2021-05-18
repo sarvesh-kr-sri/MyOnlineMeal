@@ -101,3 +101,6 @@
     font-size: 13px;
     padding: 6px 20px;
 }
+#time{
+    display: none;
+}

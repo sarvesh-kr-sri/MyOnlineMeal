@@ -59,6 +59,13 @@
     border: 3px solid rgb(255, 255, 255);
     transition: 0.4s;
 }
+#time{
+    padding: 5px 20px;
+    margin: auto 4px;
+    position: absolute;
+    right: 50px;
+    color: rgb(255, 255, 255);
+}
 
 
 /* home section */
@@ -185,6 +192,7 @@
     font-size: 1rem;
     margin: 3px ;
     padding: 0.8rem ;
+    outline: none;
 }
 #contact button{
     display: block;
